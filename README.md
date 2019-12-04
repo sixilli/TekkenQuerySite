@@ -11,5 +11,5 @@ This project is currently still in development, but it is currently functional.
 
 ## Todo 
 
-- Update framedata for season 2 and upload cleaned data to the server.
+- Update framedata for season 3 and upload cleaned data to the server.
 - Make prettier.
