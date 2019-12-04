@@ -1,0 +1,9 @@
+<div class="menu-row">
+  <mat-form-field>
+    <mat-label>Character</mat-label>
+    <mat-select [formControl]="characters">
+      <mat-option *ngFor="let char of characterList" [value]="char">{{char}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button (click)="updateFrames(characters.value)">Update</button>
+</div>

@@ -1,0 +1,51 @@
+.data-table {
+  width: 72%;
+  margin: 10px auto;
+  scale: auto;
+  padding: 10px;
+}
+
+.mat-column-Character {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-Command {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-HitLevel {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-Damage {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-StartUpFrames {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-BlockFrames {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-HitFrames {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-CounterHitFrames {
+    flex: 0 0 100px !important;
+    width: 10%;
+}
+
+.mat-column-Notes {
+    flex: 0 0 100px !important;
+    width: 10%;
+}

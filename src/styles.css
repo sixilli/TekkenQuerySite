@@ -1,0 +1,9 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+/* Application-wide Styles */
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}

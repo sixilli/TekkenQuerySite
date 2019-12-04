@@ -1,0 +1,54 @@
+<drawers-child (update)="drawerUpdate($event)"></drawers-child>
+<div class="mat-elevation-z8 data-table">
+  <table mat-table class="full-width-table" matSort aria-label="FrameData" [dataSource]="dataSource">
+    <!-- Character Column
+    <ng-container matColumnDef="Character">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Character</th>
+      <td mat-cell *matCellDef="let row">{{row.Character}}</td>
+    </ng-container> -->
+
+    <!-- Command Column -->
+    <ng-container matColumnDef="Command">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Command</th>
+      <td mat-cell *matCellDef="let row">{{row.Command}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="HitLevel">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Hit Level</th>
+      <td mat-cell *matCellDef="let row">{{row.HitLevel}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Damage">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Damage</th>
+      <td mat-cell *matCellDef="let row">{{row.Damage}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="StartUpFrames">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Start Up</th>
+      <td mat-cell *matCellDef="let row">{{row.StartUpFrames}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="BlockFrames">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>On Block</th>
+      <td mat-cell *matCellDef="let row">{{row.BlockFrames}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="HitFrames">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Hit Frames</th>
+      <td mat-cell *matCellDef="let row">{{row.HitFrames}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="CounterHitFrames">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>On CH</th>
+      <td mat-cell *matCellDef="let row">{{row.CounterHitFrames}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Notes">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Notes</th>
+      <td mat-cell *matCellDef="let row">{{row.Notes}}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
