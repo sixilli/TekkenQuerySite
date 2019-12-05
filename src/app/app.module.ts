@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule, MatSelect } from '@angular/material/select';
 
 import { AppComponent } from './app.component';
-import { SortsComponent } from './sorts/sorts.component';
+//import { SortsComponent } from './sorts/sorts.component';
 import { DataTableComponent } from './data-table/data-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -19,7 +19,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { DrawersComponent } from './data-table/drawers/drawers.component';
-import { UpdateButtonComponent } from './update-button/update-button.component';
+//import { UpdateButtonComponent } from './update-button/update-button.component';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
@@ -30,11 +30,11 @@ import { DbService } from './data-table/database-service'
 @NgModule({
   declarations: [
     AppComponent,
-    SortsComponent,
+    //SortsComponent,
     DataTableComponent,
     MainNavComponent,
     DrawersComponent,
-    UpdateButtonComponent,
+    //UpdateButtonComponent,
   ],
   imports: [
     BrowserModule,
