@@ -3,7 +3,7 @@
 This project was used as a 101 into webapp development that utilizes a NoSQL database. In the future this webapp will hopefully be hosted on firebase, and the current app
 makes use of firebase's NoSQL database.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+Functionality Preview: https://streamable.com/25dmg
 
 ## Development Status
 
