@@ -1,9 +1,9 @@
 # TekkenSite
 
-This project was used as a 101 into webapp development that utilizes a NoSQL database. In the future this webapp will hopefully be hosted on firebase, and the current app
+This project was used as a 101 into webapp development that utilizes a NoSQL database.
 makes use of firebase's NoSQL database.
 
-Functionality Preview: https://streamable.com/25dmg
+Functionality Preview: https://tekken-query-tool.web.app/
 
 ## Development Status
 
